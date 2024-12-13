@@ -1,11 +1,112 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.7.34221.43
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample Net Framework 4.8", "Visual Basic\CSiVisualBasicExample Net Framework 4.8\CSiVisualBasicExample Net Framework 4.8.vbproj", "{308B754C-D4D5-4923-9F32-9326953807FE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample Net 8", "Visual Basic\CSiVisualBasicExample Net 8\CSiVisualBasicExample Net 8.vbproj", "{0A487592-D2F7-47F1-8039-B5A15CDDDFB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisualBasic", "VisualBasic", "{CC78F288-B558-41C6-B12F-93E11BE638BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net", "Net", "{238E318E-9927-4268-97D9-B0CAE6F7A1A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net Framework", "Net Framework", "{CA3DFFE5-D155-4325-A97E-E4C2898E497F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample ETABS NET", "Visual Basic\CSiVisualBasicExample ETABS NET\CSiVisualBasicExample ETABS NET.vbproj", "{08905182-258D-4CAB-A384-52ACA0A6FF6B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample ETABS NET Framework", "Visual Basic\CSiVisualBasicExample ETABS NET Framework\CSiVisualBasicExample ETABS NET Framework.vbproj", "{F565C1CE-DB36-4D25-8188-6421D4AE3E4A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample SAFE NET Framework", "Visual Basic\CSiVisualBasicExample SAFE NET Framework\CSiVisualBasicExample SAFE NET Framework.vbproj", "{2A5BFD0A-51F4-4A30-A7D3-7897C3375AD0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample SAP2000 NET Framework", "Visual Basic\CSiVisualBasicExample SAP2000 NET Framework\CSiVisualBasicExample SAP2000 NET Framework.vbproj", "{F77BC248-0FA5-4589-A8B4-B6C6C4D49320}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample CSiBridge NET Framework", "Visual Basic\CSiVisualBasicExample CSiBridge NET Framework\CSiVisualBasicExample CSiBridge NET Framework.vbproj", "{B509141D-4990-427C-AF5C-B5B0C794BA26}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample SAFE NET", "Visual Basic\CSiVisualBasicExample SAFE NET\CSiVisualBasicExample SAFE NET.vbproj", "{9B658A82-B5A9-46F8-8012-5B733809F00E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample CSiBridge NET", "Visual Basic\CSiVisualBasicExample CSiBridge NET\CSiVisualBasicExample CSiBridge NET.vbproj", "{E3EE00E1-ED61-4233-9DB9-8FFB59626CC3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CSiVisualBasicExample SAP2000 NET", "Visual Basic\CSiVisualBasicExample SAP2000 NET\CSiVisualBasicExample SAP2000 NET.vbproj", "{C220DF08-EF5A-4103-88B5-DC1E26FE9A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visual Basic Advance", "Visual Basic Advance", "{C5A0822F-5F46-44E7-82E7-3A2D10C4E5B2}"
+	ProjectSection(SolutionItems) = preProject
+		Visual Basic\Visual Basic Advance (Excel)\CSiBridge TBL file add reference.png = Visual Basic\Visual Basic Advance (Excel)\CSiBridge TBL file add reference.png
+		Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample CSiBridge.xlsm = Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample CSiBridge.xlsm
+		Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample ETABS.xlsm = Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample ETABS.xlsm
+		Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample SAFE.xlsm = Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample SAFE.xlsm
+		Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample SAP2000.xlsm = Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample SAP2000.xlsm
+		Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample.xlsm = Visual Basic\Visual Basic Advance (Excel)\CSiVisualBasicAdvanceExample.xlsm
+		Visual Basic\Visual Basic Advance (Excel)\ETABS TBL file add reference.png = Visual Basic\Visual Basic Advance (Excel)\ETABS TBL file add reference.png
+		Visual Basic\Visual Basic Advance (Excel)\README.md = Visual Basic\Visual Basic Advance (Excel)\README.md
+		Visual Basic\Visual Basic Advance (Excel)\SAFE TBL file add reference.png = Visual Basic\Visual Basic Advance (Excel)\SAFE TBL file add reference.png
+		Visual Basic\Visual Basic Advance (Excel)\SAP2000 TBL file add reference.png = Visual Basic\Visual Basic Advance (Excel)\SAP2000 TBL file add reference.png
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{308B754C-D4D5-4923-9F32-9326953807FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308B754C-D4D5-4923-9F32-9326953807FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308B754C-D4D5-4923-9F32-9326953807FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308B754C-D4D5-4923-9F32-9326953807FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A487592-D2F7-47F1-8039-B5A15CDDDFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A487592-D2F7-47F1-8039-B5A15CDDDFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A487592-D2F7-47F1-8039-B5A15CDDDFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A487592-D2F7-47F1-8039-B5A15CDDDFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08905182-258D-4CAB-A384-52ACA0A6FF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08905182-258D-4CAB-A384-52ACA0A6FF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08905182-258D-4CAB-A384-52ACA0A6FF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08905182-258D-4CAB-A384-52ACA0A6FF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F565C1CE-DB36-4D25-8188-6421D4AE3E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F565C1CE-DB36-4D25-8188-6421D4AE3E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F565C1CE-DB36-4D25-8188-6421D4AE3E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F565C1CE-DB36-4D25-8188-6421D4AE3E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5BFD0A-51F4-4A30-A7D3-7897C3375AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5BFD0A-51F4-4A30-A7D3-7897C3375AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5BFD0A-51F4-4A30-A7D3-7897C3375AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5BFD0A-51F4-4A30-A7D3-7897C3375AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77BC248-0FA5-4589-A8B4-B6C6C4D49320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77BC248-0FA5-4589-A8B4-B6C6C4D49320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77BC248-0FA5-4589-A8B4-B6C6C4D49320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77BC248-0FA5-4589-A8B4-B6C6C4D49320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B509141D-4990-427C-AF5C-B5B0C794BA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B509141D-4990-427C-AF5C-B5B0C794BA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B509141D-4990-427C-AF5C-B5B0C794BA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B509141D-4990-427C-AF5C-B5B0C794BA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B658A82-B5A9-46F8-8012-5B733809F00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B658A82-B5A9-46F8-8012-5B733809F00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B658A82-B5A9-46F8-8012-5B733809F00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B658A82-B5A9-46F8-8012-5B733809F00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EE00E1-ED61-4233-9DB9-8FFB59626CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EE00E1-ED61-4233-9DB9-8FFB59626CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EE00E1-ED61-4233-9DB9-8FFB59626CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EE00E1-ED61-4233-9DB9-8FFB59626CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C220DF08-EF5A-4103-88B5-DC1E26FE9A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C220DF08-EF5A-4103-88B5-DC1E26FE9A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C220DF08-EF5A-4103-88B5-DC1E26FE9A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C220DF08-EF5A-4103-88B5-DC1E26FE9A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{308B754C-D4D5-4923-9F32-9326953807FE} = {CA3DFFE5-D155-4325-A97E-E4C2898E497F}
+		{0A487592-D2F7-47F1-8039-B5A15CDDDFB1} = {238E318E-9927-4268-97D9-B0CAE6F7A1A5}
+		{238E318E-9927-4268-97D9-B0CAE6F7A1A5} = {CC78F288-B558-41C6-B12F-93E11BE638BF}
+		{CA3DFFE5-D155-4325-A97E-E4C2898E497F} = {CC78F288-B558-41C6-B12F-93E11BE638BF}
+		{08905182-258D-4CAB-A384-52ACA0A6FF6B} = {238E318E-9927-4268-97D9-B0CAE6F7A1A5}
+		{F565C1CE-DB36-4D25-8188-6421D4AE3E4A} = {CA3DFFE5-D155-4325-A97E-E4C2898E497F}
+		{2A5BFD0A-51F4-4A30-A7D3-7897C3375AD0} = {CA3DFFE5-D155-4325-A97E-E4C2898E497F}
+		{F77BC248-0FA5-4589-A8B4-B6C6C4D49320} = {CA3DFFE5-D155-4325-A97E-E4C2898E497F}
+		{B509141D-4990-427C-AF5C-B5B0C794BA26} = {CA3DFFE5-D155-4325-A97E-E4C2898E497F}
+		{9B658A82-B5A9-46F8-8012-5B733809F00E} = {238E318E-9927-4268-97D9-B0CAE6F7A1A5}
+		{E3EE00E1-ED61-4233-9DB9-8FFB59626CC3} = {238E318E-9927-4268-97D9-B0CAE6F7A1A5}
+		{C220DF08-EF5A-4103-88B5-DC1E26FE9A1E} = {238E318E-9927-4268-97D9-B0CAE6F7A1A5}
+		{C5A0822F-5F46-44E7-82E7-3A2D10C4E5B2} = {CC78F288-B558-41C6-B12F-93E11BE638BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BACB5E2A-B582-4FE6-AB68-9EA9647DBFBF}
