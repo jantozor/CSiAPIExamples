@@ -44,7 +44,7 @@ To interact with CSiSoftware's API, you need to add a reference to the correspon
 - For **ETABS**
 
    <p align="center">
-       <img src="ETABS TBL file add reference.png" alt="Adding TLB Reference for ETABS" />
+       <img src="../../Images/ETABS TBL file add reference.png" alt="Adding TLB Reference for ETABS" />
    </p>
 
    - For **32-bit Excel**:
@@ -58,7 +58,7 @@ To interact with CSiSoftware's API, you need to add a reference to the correspon
 - For **SAFE**
 
    <p align="center">
-       <img src="SAFE TBL file add reference.png" alt="Adding TLB Reference for SAFE" />
+       <img src="../../Images/SAFE TBL file add reference.png" alt="Adding TLB Reference for SAFE" />
    </p>
 
    - For **32-bit Excel**:
@@ -72,7 +72,7 @@ To interact with CSiSoftware's API, you need to add a reference to the correspon
 - For **SAP2000**
 
    <p align="center">
-       <img src="SAP2000 TBL file add reference.png" alt="Adding TLB Reference for SAP2000" />
+       <img src="../../Images/SAP2000 TBL file add reference.png" alt="Adding TLB Reference for SAP2000" />
    </p>
 
    - For **32-bit Excel**:
@@ -86,7 +86,7 @@ To interact with CSiSoftware's API, you need to add a reference to the correspon
 - For **CSiBridge**
 
    <p align="center">
-       <img src="CSiBridge TBL file add reference.png" alt="Adding TLB Reference for CSiBridge" />
+       <img src="../../Images/CSiBridge TBL file add reference.png" alt="Adding TLB Reference for CSiBridge" />
    </p>
 
    - For **32-bit Excel**:
