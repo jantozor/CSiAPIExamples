@@ -2,10 +2,7 @@
 
 In addition to having the corresponding **CSi Software** installed (e.g., SAP2000, ETABS, SAFE, CSiBridge, Perform 3D), the examples provided for **C#**, **Framework 4.8**, and **.NET 8** require specific software components.
 
-### 1. **C# Examples**
-   For the C# examples to work, you will need the **CSiSoftware** (e.g., SAP2000, ETABS, SAFE, CSiBridge, Perform 3D) installed and properly referenced in your project. The setup and references are similar to what is explained in the previous sections.
-
-### 2. **.NET Framework 4.8**
+### 1. **.NET Framework 4.8**
    For the **.NET Framework** examples, **.NET Framework 4.8** is required. If you do not have it installed, follow these steps to install it:
 
    #### Installation Steps:
@@ -19,7 +16,7 @@ In addition to having the corresponding **CSi Software** installed (e.g., SAP200
    3. **Verify the Installation**:
       - After installation, you can verify that **.NET Framework 4.8** is installed by going to **Control Panel** > **Programs** > **Programs and Features** and checking the list for **.NET Framework 4.8**.
 
-### 3. **.NET 8**
+### 2. **.NET 8**
    For the **.NET** examples, **.NET 8** is required. If you need to install it, follow these steps:
 
    #### Installation Steps:
@@ -36,7 +33,7 @@ In addition to having the corresponding **CSi Software** installed (e.g., SAP200
         ```
       - This should output the version number, confirming that **.NET 8** is successfully installed.
 
-### 4. **Framework and .NET Compatibility**
+### 3. **Framework and .NET Compatibility**
    - Ensure that your development environment is set up with the correct version of **.NET Framework 4.8** or **.NET 8**, depending on the example you are running.
    - You can check your **Visual Studio** version to ensure compatibility with **.NET 4.8** and **.NET 8**.
 
