@@ -8,10 +8,8 @@ IronPython is a .NET implementation of Python, enabling seamless integration wit
 
 1. Download IronPython from the official website:
 
-   - Visit the official [Ironpython website](https://ironpython.net/download/).
-   - Download the **Python 3.9 installer** for your operating system.
-2. Install IronPython and ensure the installation path is added to the system's environment variables:
-3. Verify the installation by running the following command in a terminal:
-   ```bash
-   ipy --version
-If IronPython is installed correctly, it should display the version number.
+   - Visit the official [IronPython website](https://ironpython.net/download/).
+   - Download the **IronPython 3.4 installer**.
+2. Verify the installation folder with the settings.json file on the .vscode folder.
+
+If IronPython is installed correctly, the following path should exist `C:\Program Files\IronPython 3.4\ipy.exe`.
