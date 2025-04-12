@@ -19,7 +19,7 @@ To enable .NET interoperability in Python, you need to install `pythonnet` using
 3. Run the following command to install `pythonnet`:
 
    ```bash
-   pip install comtypes
+   pip install pythonnet
 4. If you do not have pip installed, you can install it by running the following commands:
    - Download the get-pip.py script:
 
