@@ -14,7 +14,7 @@ mySapObject = None
 mySapModel = None
 ret = 0
 program_id="CSI.ETABS.API.ETABSObject"
-program_path=r"C:\Program Files\Computers and Structures\ETABS 22\ETABS.exe" 
+program_path=r"C:\Program Files\Computers and Structures\ETABS 23\ETABS.exe" 
 
 def open():
     #Open a new instance using the program ID.

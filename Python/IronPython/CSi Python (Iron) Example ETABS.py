@@ -4,7 +4,7 @@ import clr # type: ignore
 from enum import Enum
 clr.AddReference("System")
 import System # type: ignore
-clr.AddReferenceToFileAndPath("C:\Program Files\Computers and Structures\ETABS 22\ETABSv1.dll")
+clr.AddReferenceToFileAndPath("C:\Program Files\Computers and Structures\ETABS 23\ETABSv1.dll")
 from ETABSv1 import * # type: ignore
 
 # Initialize global variables
@@ -13,7 +13,7 @@ mySapObject = None
 mySapModel = None
 ret = 0
 program_id="CSI.ETABS.API.ETABSObject"
-program_path=r"C:\Program Files\Computers and Structures\ETABS 22\ETABS.exe" 
+program_path=r"C:\Program Files\Computers and Structures\ETABS 23\ETABS.exe" 
 
 def open():
     #Open a new instance using the program ID.

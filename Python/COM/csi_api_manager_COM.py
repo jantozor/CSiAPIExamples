@@ -13,7 +13,7 @@ class CSiAPIManager:
         self.program_name = program_name
         if self.program_name == "ETABS":
             self.program_id="CSI.ETABS.API.ETABSObject"
-            self.program_path=r"C:\Program Files\Computers and Structures\ETABS 22\ETABS.exe"     
+            self.program_path=r"C:\Program Files\Computers and Structures\ETABS 23\ETABS.exe"     
         elif self.program_name == "SAP2000":
             self.program_id="CSI.SAP2000.API.SapObject"
             self.program_path=r"C:\Program Files\Computers and Structures\SAP2000 26\SAP2000.exe"       

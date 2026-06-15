@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>CSIDetailing.ico</ApplicationIcon>
+    <NoWin32Manifest>true</NoWin32Manifest>    
+    <PlatformTarget>x64</PlatformTarget>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>CSiC_Example_Plugin_NET</RootNamespace>
+    <AssemblyName>$(RootNamespace)</AssemblyName>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="CSIDetailing.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CSiAPIv1">
+      <HintPath>..\..\..\DLL\CSiAPIv1.dll</HintPath>
+      <Private>False</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </Reference>
+  </ItemGroup>
+
+</Project>
